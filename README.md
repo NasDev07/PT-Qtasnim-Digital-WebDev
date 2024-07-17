@@ -7,6 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Website ini dibuat menggunakan bahasa pemrograman PHP dengan framework Laravel dan menggunakan database MySQL.
+
 ## Reviews Web
 ![Screenshot_255](https://github.com/user-attachments/assets/4d3a3d85-f1dd-4f63-9ade-0db41ebe3ba7)
 * desain figma : https://www.figma.com/design/czf2K4d3wxhpLycQzNqHpk/Untitled?node-id=0-1&t=t5KCsMszFAaACMla-1
