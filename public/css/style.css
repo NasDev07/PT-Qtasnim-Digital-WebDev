@@ -1,0 +1,117 @@
+.table__container {
+  width: 100%;
+  margin: auto;
+}
+
+.styled__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled__table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled__table th,
+.styled__table td {
+  padding: 12px 15px;
+}
+
+.styled__table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled__table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled__table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled__table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+/* DataTables styling */
+.dataTables_wrapper .dataTables_filter {
+  float: right;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 5px;
+  color: #28a745 !important; /* Warna teks input pencarian */
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  float: right;
+  margin-top: 10px;  
+}
+
+.dataTables_wrapper .dataTables_info {
+  float: left;
+  margin-top: 10px;
+}
+
+/* Button styling */
+.dt-button.btn-success {
+  background-color: #28a745 !important;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+
+.dt-button.btn-danger {
+  background-color: #dc3545 !important;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+
+.dt-button.btn-primary {
+  background-color: #007bff !important;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: #28a745 !important; /* Warna placeholder pencarian */
+  opacity: 1;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  color: white !important;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #0056b3;
+}
