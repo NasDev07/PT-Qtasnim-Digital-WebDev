@@ -25,3 +25,38 @@ Website ini dibuat menggunakan bahasa pemrograman PHP dengan framework Laravel d
 * Post
 * Put
 * Delete
+  
+## Menjalankan Program
+* Install Dependencies
+  ```
+  composer install
+  ```
+* Copy File Environment
+  ```
+  cp .env.example .env
+  ```
+* Install Dependencies
+  ```
+  php artisan key:generate
+  ```
+* Konfigurasi Database
+  ```
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=test_webDev
+  DB_USERNAME=root
+  DB_PASSWORD=
+  ```
+* Migrasi Database
+  ```
+  php artisan migrate
+  ```
+* Migrasi Database
+  ```
+  php artisan migrate:frsh --seed
+  ```
+* Jalankan Server
+  ```
+  php artisan serve
+  ```
